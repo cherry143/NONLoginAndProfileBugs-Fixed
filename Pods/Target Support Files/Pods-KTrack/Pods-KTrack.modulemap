@@ -1,0 +1,6 @@
+framework module Pods_KTrack {
+  umbrella header "Pods-KTrack-umbrella.h"
+
+  export *
+  module * { export * }
+}

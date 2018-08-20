@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SubChildCollCell" id="gTV-IL-0wX" customClass="DetailPortfolioSubChildCollCell">
+            <rect key="frame" x="0.0" y="0.0" width="766" height="52"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="766" height="52"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Units" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qN-4l-kTe">
+                        <rect key="frame" x="0.0" y="5" width="40" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="p1p-Zc-XiO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cost Value (₹)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgb-Uo-vxR">
+                        <rect key="frame" x="45.5" y="5" width="80" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="twT-Dt-hFE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Value (₹)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PX3-t0-cQ9">
+                        <rect key="frame" x="130.5" y="5" width="80" height="42"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appr. (₹)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8U-al-Axt">
+                        <rect key="frame" x="215.5" y="5" width="80" height="42"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Value (₹)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ErY-LP-XAh">
+                        <rect key="frame" x="300.5" y="5" width="110" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="3Gp-kf-90m"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zwj-Ue-NlK">
+                        <rect key="frame" x="415.5" y="6" width="90" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Pya-Cr-S6s"/>
+                            <constraint firstAttribute="width" constant="90" id="mrB-ka-cM4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="10"/>
+                        <state key="normal" title="LATEST YIELD">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="05p-1z-ucr">
+                        <rect key="frame" x="510.5" y="6" width="249" height="40"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59Z-4B-mdt">
+                                <rect key="frame" x="0.0" y="0.0" width="58.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="58.5" id="b6B-HY-vKT"/>
+                                </constraints>
+                                <state key="normal" image="purchase"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sni-gX-qQh">
+                                <rect key="frame" x="63.5" y="0.0" width="58.5" height="40"/>
+                                <state key="normal" image="redeem"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hB3-an-THK">
+                                <rect key="frame" x="127" y="0.0" width="58.5" height="40"/>
+                                <state key="normal" image="switch_bg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUl-S9-V4z">
+                                <rect key="frame" x="190.5" y="0.0" width="58.5" height="40"/>
+                                <state key="normal" image="Download">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="59Z-4B-mdt" firstAttribute="width" secondItem="hB3-an-THK" secondAttribute="width" id="9H0-M1-aKU"/>
+                            <constraint firstItem="59Z-4B-mdt" firstAttribute="width" secondItem="sni-gX-qQh" secondAttribute="width" id="PQa-6c-VEl"/>
+                            <constraint firstItem="59Z-4B-mdt" firstAttribute="width" secondItem="dUl-S9-V4z" secondAttribute="width" id="f0D-gy-kqo"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.8587297797203064" green="0.85887759923934937" blue="0.85872042179107666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ErY-LP-XAh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="437-4R-TTV"/>
+                <constraint firstItem="8qN-4l-kTe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6eb-bb-AdW"/>
+                <constraint firstItem="Qgb-Uo-vxR" firstAttribute="width" secondItem="k8U-al-Axt" secondAttribute="width" id="7aT-Sd-hDa"/>
+                <constraint firstItem="ErY-LP-XAh" firstAttribute="leading" secondItem="k8U-al-Axt" secondAttribute="trailing" constant="5" id="BEC-ba-y95"/>
+                <constraint firstAttribute="bottom" secondItem="ErY-LP-XAh" secondAttribute="bottom" constant="5" id="Bgj-sb-ReK"/>
+                <constraint firstAttribute="bottom" secondItem="8qN-4l-kTe" secondAttribute="bottom" constant="5" id="OKB-X5-w09"/>
+                <constraint firstAttribute="bottom" secondItem="PX3-t0-cQ9" secondAttribute="bottom" constant="5" id="QbR-4S-2Ju"/>
+                <constraint firstItem="Qgb-Uo-vxR" firstAttribute="leading" secondItem="8qN-4l-kTe" secondAttribute="trailing" constant="5" id="RMX-Ru-a8T"/>
+                <constraint firstItem="Zwj-Ue-NlK" firstAttribute="height" secondItem="05p-1z-ucr" secondAttribute="height" id="SbF-y7-ZQr"/>
+                <constraint firstItem="Zwj-Ue-NlK" firstAttribute="leading" secondItem="ErY-LP-XAh" secondAttribute="trailing" constant="5" id="SbZ-6c-TlH"/>
+                <constraint firstItem="8qN-4l-kTe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Sgp-Nt-5Ry"/>
+                <constraint firstItem="PX3-t0-cQ9" firstAttribute="leading" secondItem="Qgb-Uo-vxR" secondAttribute="trailing" constant="5" id="UAW-gM-Hub"/>
+                <constraint firstItem="05p-1z-ucr" firstAttribute="leading" secondItem="Zwj-Ue-NlK" secondAttribute="trailing" constant="5" id="aQr-N7-cSi"/>
+                <constraint firstItem="Zwj-Ue-NlK" firstAttribute="centerY" secondItem="ErY-LP-XAh" secondAttribute="centerY" id="bgP-SI-Fyu"/>
+                <constraint firstItem="05p-1z-ucr" firstAttribute="centerY" secondItem="ErY-LP-XAh" secondAttribute="centerY" id="l6w-Hk-PSB"/>
+                <constraint firstAttribute="bottom" secondItem="Qgb-Uo-vxR" secondAttribute="bottom" constant="5" id="o9j-WT-2bo"/>
+                <constraint firstItem="k8U-al-Axt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="sWE-ns-Wor"/>
+                <constraint firstAttribute="bottom" secondItem="k8U-al-Axt" secondAttribute="bottom" constant="5" id="uMp-nY-akg"/>
+                <constraint firstItem="Qgb-Uo-vxR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="uuV-lN-Gqr"/>
+                <constraint firstItem="k8U-al-Axt" firstAttribute="leading" secondItem="PX3-t0-cQ9" secondAttribute="trailing" constant="5" id="yW7-gh-FuS"/>
+                <constraint firstItem="Qgb-Uo-vxR" firstAttribute="width" secondItem="PX3-t0-cQ9" secondAttribute="width" id="yzu-GU-Wh4"/>
+                <constraint firstItem="PX3-t0-cQ9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="zyd-lO-aCa"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="751" height="52"/>
+            <connections>
+                <outlet property="btn_additionalPurchase" destination="59Z-4B-mdt" id="INP-1m-448"/>
+                <outlet property="btn_download" destination="dUl-S9-V4z" id="hCb-l8-fD1"/>
+                <outlet property="btn_latestYield" destination="Zwj-Ue-NlK" id="ZyL-x9-ipE"/>
+                <outlet property="btn_redemption" destination="sni-gX-qQh" id="kpi-XV-Z3C"/>
+                <outlet property="btn_switch" destination="hB3-an-THK" id="z3y-xD-ftD"/>
+                <outlet property="lbl_appr" destination="k8U-al-Axt" id="MQL-4j-5dE"/>
+                <outlet property="lbl_costValue" destination="Qgb-Uo-vxR" id="JR7-U0-Hcz"/>
+                <outlet property="lbl_currentValue" destination="PX3-t0-cQ9" id="xXX-w4-jis"/>
+                <outlet property="lbl_planDesc" destination="ErY-LP-XAh" id="c7b-3l-4qh"/>
+                <outlet property="lbl_units" destination="8qN-4l-kTe" id="1Ae-aP-TWf"/>
+            </connections>
+            <point key="canvasLocation" x="279" y="16"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Download" width="69" height="54"/>
+        <image name="purchase" width="138" height="108"/>
+        <image name="redeem" width="138" height="108"/>
+        <image name="switch_bg" width="138" height="108"/>
+    </resources>
+</document>

@@ -1,0 +1,13 @@
+platform :ios, ‘8.0’
+use_frameworks!
+
+target 'KTrack' do
+	pod 'GoogleSignIn'
+	pod 'FBSDKLoginKit'
+	pod 'AFNetworking'
+	pod 'IQKeyboardManager'
+	pod 'MBProgressHUD'
+        pod 'JDStatusBarNotification'
+	pod 'Firebase/Core'
+	pod 'Firebase/Messaging'
+end

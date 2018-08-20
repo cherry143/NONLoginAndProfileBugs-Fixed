@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="CollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="138" height="156"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="138" height="156"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vc-Ld-yur">
+                        <rect key="frame" x="5" y="83" width="128" height="19.5"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.01220233552" green="0.36376559730000002" blue="0.592179656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locateus" translatesAutoresizingMaskIntoConstraints="NO" id="TeP-Zu-Jsc">
+                        <rect key="frame" x="39.5" y="18" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="1yp-ah-Snr"/>
+                            <constraint firstAttribute="width" constant="60" id="mXd-W8-ewa"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="2Vc-Ld-yur" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="VI7-P5-zdE"/>
+                <constraint firstItem="TeP-Zu-Jsc" firstAttribute="centerY" secondItem="SEy-5g-ep8" secondAttribute="centerY" constant="-30" id="e5z-6C-VAw"/>
+                <constraint firstAttribute="trailing" secondItem="2Vc-Ld-yur" secondAttribute="trailing" constant="5" id="hye-Id-6Qy"/>
+                <constraint firstItem="TeP-Zu-Jsc" firstAttribute="centerX" secondItem="SEy-5g-ep8" secondAttribute="centerX" id="myU-Vn-GqS"/>
+                <constraint firstItem="2Vc-Ld-yur" firstAttribute="top" secondItem="TeP-Zu-Jsc" secondAttribute="bottom" constant="5" id="sLQ-fs-50G"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="138" height="156"/>
+            <connections>
+                <outlet property="imageView" destination="TeP-Zu-Jsc" id="CXi-aV-lbg"/>
+                <outlet property="servicelabel" destination="2Vc-Ld-yur" id="q7h-bO-mCU"/>
+            </connections>
+            <point key="canvasLocation" x="69" y="105"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="locateus" width="55" height="55"/>
+    </resources>
+</document>

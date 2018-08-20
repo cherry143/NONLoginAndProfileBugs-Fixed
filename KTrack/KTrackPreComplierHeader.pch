@@ -1,0 +1,203 @@
+//
+//  KTrackPreComplierHeader.pch
+//  KTrack
+//
+//  Created by mnarasimha murthy on 10/04/18.
+//  Copyright © 2018 narasimha. All rights reserved.
+//
+
+#ifndef KTrackPreComplierHeader_pch
+#define KTrackPreComplierHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// Importing FireBase Push Notification
+
+@import Firebase;
+@import FirebaseMessaging;
+
+// Frameworks Importing
+
+#import <QuartzCore/QuartzCore.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
+//Importing Constant classes
+
+#import "KTConstants.h"
+
+// Importing Common used objects classes
+
+#import "SharedUtility.h"
+#import "KATCircularProgress.h"
+#import "MarqueeLabel.h"
+#import "NSData+Base64.h"
+
+
+// Importing GoogleSignIn Integration class framework
+
+@import GoogleSignIn;
+
+// Importing FaceBook Integration class framework
+
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+
+//Importing Network Related classes
+
+#import "Reachability.h"
+#import "AFNetworking.h"
+#import "MBProgressHUD.h"
+#import "UIView+Toast.h"
+#import "UIImageView+XPDUIImageView.h"
+#import "UIColor+HexColors.h"
+#import "YSLContainerViewController.h"
+#import "UITextField+XPDUITextField.h"
+#import "UITextView+XPDUITextView.h"
+#import "UIView+KTView.h"
+#import "UIButton+XPDUIButton.h"
+#import "SCPinViewController.h"
+#import "SCPinAppearance.h"
+#import "SPLockScreen.h"
+#import "TermsVC.h"
+#import "TransactNowVC.h"
+#import "AddPurchaseVC.h"
+#import "RedemptonVC.h"
+#import "SwitchVC.h"
+#import "DetailedPortfolioVC.h"
+#import "PaymentModeVC.h"
+#import "UIImageView+AFNetworking.h"
+#import "UILabel+XPDUILabel.h"
+
+// Importing StoryBoardName Related Headers
+
+#import "NonLoginVC.h"
+#import "LoginVC.h"
+#import "LocateMeVC.h"
+#import "EasySmsVC.h"
+#import "MissedCallMessageVC.h"
+#import "ShowBranchDetailsListVC.h"
+#import "CASVC.h"
+#import "KnowYourTransactionVC.h"
+#import "ForgotUserIDVC.h"
+#import "PinPatternVC.h"
+#import "PortfolioVC.h"
+#import "KYTDateCell.h"
+#import "KYTDetailsCell.h"
+#import "DetailsHeaderCell.h"
+#import "KnowYourTransctionDetailsVC.h"
+#import "IQUIView+IQKeyboardToolbar.h"
+
+#import "CommonPopupVC.h"
+#import "CommonAccountStatementVC.h"
+#import "ChangePasswordVC.h"
+#import "SlideMenuVC.h"
+#import "LinkAadhaarVC.h"
+#import "LinkAadhaarFamilyFolioVC.h"
+#import "TranscationWithfaimy.h"
+#import "RedemptonWithFamliy.h"
+
+// Importing DB Related SingleTon class and Model class
+#import "PaymentVC.h"
+#import "PaymentModeVC.h"
+#import "DBManager.h"
+#import "DBManagerModelClass.h"
+#import "RedemptonWithFamliy.h"
+
+// Importing Calling webservice common class
+
+#import "APIManager.h"
+
+// Importing TableView or Collective View Xib Files
+#import "AddPurchaseFamilyVC.h"
+#import "ShowBranchDetailsCell.h"
+#import "KnowYourTransactionDetailsTblCell.h"
+#import "forgotPasswordVC.h"
+#import "PortfolioListTblCell.h"
+#import "CollectionViewCell.h"
+#import "MenuHeaderView.h"
+
+// April 11th
+
+#import "DELinkFolioVC.h"
+#import "DELinkTblCell.h"
+#import "DELinkHeaderTblCell.h"
+#import "LinkFamilyFolioVC.h"
+
+// May 15th
+
+#import "TransactionHistorVC.h"
+#import "TransactionHistoryTblCell.h"
+#import "PinPatternSetupVC.h"
+
+// May 17th
+
+#import "ProfileVC.h"
+#import "ProfileTblCell.h"
+#import "TYMProgressBarView.h"
+#import "DemographicDetailsVC.h"
+#import "FATCADetailsVC.h"
+#import "CommunicationDetailsVC.h"
+#import "NomineeDetailsVC.h"
+#import "FolioDetailsVC.h"
+#import "BankDetailsVC.h"
+
+// May 22nd
+
+#import "DetailParentTblCell.h"
+#import "FolioBankDetailsVC.h"
+#import "FolioContactDetailsVC.h"
+#import "FolioNomineeDetailsVC.h"
+#import "FolioContactDetailCell.h"
+#import "FolioNomineeDetailsTblCell.h"
+#import "BankFolioTblCell.h"
+#import "BankDetailsListVC.h"
+#import "NomineeDetailsListVC.h"
+#import "LatestYieldPopupVC.h"
+
+// May 28th
+
+#import "AddBankDetailsVC.h"
+#import "AadhaarValidateVC.h"
+#import "SwitchCnfVC.h"
+#import "RedemptionConVC.h"
+#import "SwitchWithfamliyVC.h"
+#import "SIPWithPPanVC.h"
+#import "SIPComfVC.h"
+
+// June 15th
+
+#import "DetailPortfolioMiddleChildTblCell.h"
+#import "DetailPortfolioMiddleCollCell.h"
+#import "DetailPortfolioSubChildTblCell.h"
+#import "DetailPortfolioSubChildCollCell.h"
+#import "NetAssetValueGraphVC.h"
+#import "NavTableCell.h"
+#import "BEMSimpleLineGraphView.h"
+#import "NotificationsVC.h"
+#import "NotificationTblCell.h"
+#import "NomieetableCell.h"
+#import "NewPurchaseVC.h"
+#import "NewPurchaseConfVC.h"
+#import "KtoMConVC.h"
+#import "SWPConfirmationVC.h"
+#import "SIPFamilyVC.h"
+#import "PaymentModeCell.h"
+
+#import "SystematicWithdrawalPlanVC.h"
+#import "FamilySWPViewController.h"
+#import "FolioAccSummary.h"
+
+#import "LoginRaiseaQueryVC.h"
+#import "RaiseQueryNonLoginVC.h"
+#import "MenuKOTMVC.h"
+
+#import "CancelSystematicTransactVC.h"
+#import "CancelSTPTblCell.h"
+#import "CancelSIPSWPTblCell.h"
+#import "CancelSTConfirmationVC.h"
+#import "VCFloatingActionButton.h"
+#import "SystematicTransferPlanVC.h"
+#import "STPCinfVc.h"
+#endif /* KTrackPreComplierHeader_pch */
