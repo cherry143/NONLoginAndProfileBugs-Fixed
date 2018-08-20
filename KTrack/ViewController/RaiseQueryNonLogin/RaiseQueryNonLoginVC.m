@@ -45,7 +45,7 @@
 #pragma mark - Initialise On View Load
 
 -(void)initaliseOnViewLoad{
-    //this is badri
+    //this is badriss
     [txt_emailAddress setValue:[UIColor blackColor] forKeyPath:@"_placeholderLabel.textColor"];
     [txt_mobileNumber setValue:[UIColor blackColor] forKeyPath:@"_placeholderLabel.textColor"];
     [txt_name setValue:[UIColor blackColor] forKeyPath:@"_placeholderLabel.textColor"];
